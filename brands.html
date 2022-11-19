@@ -27,18 +27,193 @@
                     <a class="nav-link" href="Vehiculos.html" target="_parent">Compra de Vehiculos</a>
                     <a class="nav-link" href="brands.html" target="_parent">Marcas Disponibles</a>
                     <a class="nav-link" href="https://www.motogp.com/" target="_blank">Moto gp</a>
-                    <a class="nav-link" href="InicioSesion.html" target ="_parent">Log in</a>
+                    <a class="nav-link" href="InicioSesion.html" target="_parent">Log in</a>
                     <a class="nav-link disabled">BikersGP</a>
                 </div>
             </div>
         </div>
     </nav>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
-    crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
-    integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
-    crossorigin="anonymous"></script>
+
+    <!-- Titulo -->
+    <h1
+        style="border: 2px; color: white; text-align: center; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+        MARCAS ASOCIADAS A LA COMPAÑIA</h1>
+    <!-- Boostrap de marcas disponibles -->
+    <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                    aria-expanded="true" aria-controls="collapseOne">
+                    DUCATI
+                </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <strong>Ducati</strong> es una empresa italiana fabricante de motocicletas, fundada en 1926 en
+                    Bolonia por el ingeniero Antonio Cavalieri Ducati, Carlo Crespi y tres de sus hijos, pero no fue
+                    hasta 1952 cuando diseñaron su primera motocicleta. <code>.wikipedia</code>
+                    <br>
+                    <a href="https://www.ducati.com/es/es/home"><img
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Ducati_red_logo.PNG/723px-Ducati_red_logo.PNG"
+                            alt="Ducati" height="100px"></a>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        YAMAHA
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>Yamaha</strong> es una compañía japonesa con una amplia gama de productos y servicios,
+                        sobre todo, instrumentos musicales y aparatos electrónicos. Wikipedia
+                        <code>.wikipedia</code>
+                        <br>
+                        <a href="https://www.incolmotos-yamaha.com.co/"><img
+                                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHcAAAA+CAMAAAAmsHQcAAAA+VBMVEX////kAADsa23viInwjY763t74ysvsaGvR0ND86+vvhYf0rK3xlpfpAADoNjrx8fH98fH0srP3wsPrYGLyoaLnJyzoMjbpRUjynZ7pSk3++Pjh4ODEw8OEgoG3trXn5uaura3j1tfpvsPz0NLGoaHPeHnIU1K7m5+xtcXdqq/ufoDPa230dHntd3vuPjruHSK/MjmHl6vVr6/HdHyzUl2xi5zqU1axpbG2ZnHmBBLIYV/gzdK3jpS8nKySdYTACRDIjo6ha3jFvcmii5mIeIeacX/TAADRQ0zHVWGBhJXGgYvdhYxcWFehn592c3IAAAAaEA1FQUAuLCuRyfscAAACiUlEQVRYhe2Ta2/TMBSGz2mb1OklTtKk6WLn0oXCgHYro3QrHQw2boMk2/j/P4bjiI0v8IVUQhN+pFY+suQn5/UxgEaj0Wg0Go3mv8EynH9gNXJnau3nd37DgMhQC8swIqosuK8d+kX1xg60OX80sx4/OXgK4GEXDAzARewBPEP0DMQRQB+xA9DDPozQBAgRm4tN/ny+EIdHyxf7AOT00SeDsrURfQ+xVX8B1R3ytpQX6YOaah1rduy6x52Xq9UroGONEfWyDoJN7Z1Pau/6aDz+5bUwxEFTb57O3NnUPVmeLg9MCtrHMUTBuoUReTfrbu3FvRY65B1YKmcPB3QfTb3m4evp9uzN2/Phdr+O0KeGFj6d38bRZrMmL9UTzMmrMGGC3thu7M2x9e7s5PR9MLRyFTRaYGJXzVCb+sIOeT2cq7qDo45N3hH2bWz68HLWuzi7XH74eNHjNKQuUie+6mtBXpqqPnnrukdet77fsSrzht7o8vLTcPX5y/BcHIN6SXsACxz0MSQvvSKKA7qqtu/mysHAndOyIdOrVe31Uqv2hgABpYgb5Q3RohGyacgQa28XTYPelKfed0O2Vydfv7nRVGnBtGl8Q8q6ZTuTsTFYWHY72qMM1qHl2y707NyzB2DYjQeaopYXkm2j5gc9NLhgkvHf70lI1A7nTMRip9IsqSrOiwJ4JIAJKQRjpdqAlCVQyDiLZZZVPJG71CrBNfC4SKu4KqRkt5xXFcsKmZVZDJksaVlmkoFkf8rkL7kti5sUWCHTMhNMcH4rvrO4zJIEIOOS2leI3Urp6Bvg1U3JZCIVTJQx0H0nSV2k6a59PxHXTP1Led9QnCVy591pNBqNRqPRaB4WPwBk3zoex6VHVwAAAABJRU5ErkJggg=="
+                                alt="Yamaha" height="100px"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        KAWASAKI
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>Kawasaki</strong> es una corporación internacional con sede en las ciudades japonesas de
+                        Chūō-ku y Minato. La compañía toma el nombre de su fundador, Shozo Kawasaki, y no tiene conexión
+                        con la ciudad de Kawasaki. <code>.wikipedia</code>
+                        <br>
+                        <a href="https://www.autecomobility.com/kawasaki"><img
+                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Kawasaki-logo.svg/2560px-Kawasaki-logo.svg.png"
+                                alt="Kawasaki" height="100px"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFour">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        KTM
+                    </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>Ktm</strong> es un fabricante de motocicletas y escudería de motocicletas de Austria,
+                        que se formó en 1992, pero remonta su fundación a 1934. En 1992 la empresa fue escindida de su
+                        matriz KTM cuando tuvo problemas financieros <code>.wikipedia</code>
+                        <br>
+                        <a
+                            href="https://www.auteco.com.co/motos-ktm/?utm_campaign=SMD-auteco-alta-gama-sept-Consideration-GA-Busqueda&utm_medium=Google&utm_term=autecoktmcolombia&utm_content=brand&gclid=Cj0KCQiA99ybBhD9ARIsALvZavWNCSwdQplkJlwIGdNW8RrrAFvtqAOTfatAWiviEMIQUeoknD_KTd0aAqFREALw_wcB"><img
+                                src="data:image/png;base64,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"
+                                alt="Ktm" height="100px"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFive">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                        APRILIA
+                    </button>
+                </h2>
+                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>Aprilia</strong> es un fabricante de motocicletas perteneciente al grupo industrial
+                        italiano Piaggio. Se fundó en el año 1945 y tiene su sede en Noale, región de Véneto, Italia. Al
+                        principio se dedicaba a la venta de scooters, pero luego pasó a desarrollar también motocicletas
+                        deportivas. <code>.wikipedia</code>
+                        <br>
+                        <a href="https://aprilia-colombia.com/"><img
+                                src="data:image/png;base64,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"
+                                alt="Aprilia" height="100px"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingSix">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                        HONDA
+                    </button>
+                </h2>
+                <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>Honda</strong> es una empresa de capital abierto de origen japonés fabricante de
+                        automóviles, motores para vehículos terrestres, acuáticos y aéreos, motocicletas, robots y
+                        componentes para la industria automotriz. <code>.wikipedia</code>
+                        <br>
+                        <a href="https://motos.honda.com.co/"><img
+                                src="https://a5i4f6g5.stackpathcdn.com/images/svg/logo-honda.svg" alt="Honda"
+                                height="100px"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingSeven">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                        BMW
+                    </button>
+                </h2>
+                <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>BMW</strong> es un fabricante alemán de automóviles y motocicletas de alta gama y lujo,
+                        cuya sede se encuentra en Múnich. Sus subsidiarias son Mini, Rolls-Royce y BMW Bank.
+                        <code>.wikipedia</code>
+                        <br>
+                        <a
+                            href="https://www.bmw.com.co/es/index.html?gclid=Cj0KCQiA99ybBhD9ARIsALvZavVe4-B2ZkVjjtxzjSRpU-pOQKD7UPIbr7dXTAOzrQJJNjw9wMoSjmAaAsz-EALw_wcB"><img
+                                src="data:image/jpeg;base64,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"
+                                alt="BMW" height="100px"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingEight">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                        SUZUKI
+                    </button>
+                </h2>
+                <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>Suzuki</strong> es una empresa pública multinacional japonesa dedicada a la fabricación
+                        de automóviles, motocicletas, motores fuera borda y una variedad de productos equipados con
+                        motor de combustión interna <code>.wikipedia</code>
+                        <br>
+                        <a href="https://suzuki.com.co/"><img
+                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Suzuki_Motor_Corporation_logo.svg/2560px-Suzuki_Motor_Corporation_logo.svg.png"
+                                alt="Suzuki" height="100px"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br>
+        <a href="index.html"><button type="button"
+                style="border-radius: 15%; color:azure;background-color:rgb(2, 44, 49);">Regresar</button></a>
+
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+            integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+            integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+            crossorigin="anonymous"></script>
 </body>
 
 </html>
