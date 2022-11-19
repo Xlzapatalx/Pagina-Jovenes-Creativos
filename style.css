@@ -1,0 +1,163 @@
+#primerTitulo{
+    color: rgb(234, 237, 243);
+    margin-left: 40%;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+}
+
+#moto {
+    font-size: 30px;
+}
+
+
+#parrafo1{
+    color: white;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 15 px;
+}
+
+.Personal{
+    color: rgb(122, 127, 133);
+}
+
+.Datos{
+color: white;
+ background-color: rgb(22, 22, 22);  
+}
+
+.Informacion{
+   margin-left: 45%;
+}
+
+body{
+    background-color: rgb(54, 49, 49);
+
+}
+
+.cajaVehiculos{
+    display: flex;
+}
+
+.card{
+    margin: 5px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.body-login{
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: linear-gradient(to right, #cd232c, #cd1d61);
+}
+
+.div-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: blueviolet;
+}
+
+.form-login{
+display: flex;
+flex-direction: column;
+background: white;
+text-align: center;
+padding: 20px 25px;
+box-shadow: 0 5px 10px black;
+}
+
+.tittle{
+    color: black;
+    font-size: 35px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.label-form{
+    margin-bottom: 35px;
+}
+
+.fa-solid{
+    font-size: 20px;
+    color: rgb(189, 60, 81);
+    margin-right: 10px;
+}
+
+.input-form{
+    outline: none;
+    border-bottom: 1 px rgb(204, 73, 73);
+    color: rgb(24, 20, 20);
+    padding: 0 5px;
+    font-size: 18px;
+}
+
+.input-form::placeholder{
+    color: rgb(22, 22, 22);
+}
+
+.link{
+    color: #252525;
+    margin-bottom: 15px;
+}
+
+#button{
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    background: linear-gradient(to right, red, rgb(185, 56, 78));
+    cursor: pointer;
+    font-size: 20px;
+} 
+
+
+/*Responsive design */
+@media screen and (max-widht: 1000px) {
+    #primerTitulo{
+        color: rgb(234, 237, 243);
+        margin-left: 40%;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: 600;
+    }
+    
+    #parrafo1{
+        color: white;
+        font-size: medium;
+        font-family: 'Times New Roman', Times, serif;
+        margin-left: 15 px;
+    }
+    
+    .Personal{
+        color: rgb(122, 127, 133);
+    }
+    
+    .Datos{
+    color: white;
+     background-color: rgb(22, 22, 22);   
+    }
+    
+    .Informacion{
+        margin-left: 15px;
+    }
+    
+    body{
+        background-color: rgb(54, 49, 49);
+        font-family: 'Times New Roman', Times, serif;
+    
+    }
+    
+    .cajaVehiculos{
+        display: flex;
+    }
+    
+    .card{
+        margin: 5px;
+    }
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BikerGP.com</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="./java.js"></script>
+    <script src="https://kit.fontawesome.com/00aaf35b9f.js" crossorigin="anonymous"></script>
+
+</head>
+</head>
+<body class="body-login">
+     <!--NavBAr-->
+     <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><i class="fa-solid fa-motorcycle" id="moto"></i></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                    <a class="nav-link" href="Vehiculos.html" target="_parent">Compra de Vehiculos</a>
+                    <a class="nav-link" href="brands.html" target="_parent">Marcas Disponibles</a>
+                    <a class="nav-link" href="https://www.motogp.com/" target ="_blank">Moto gp</a>
+                    <a class="nav-link" href="InicioSesion.html" target ="_parent">Log in</a>
+                    <a class="nav-link disabled">BikersGP</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="div-form">
+         <!-- Formulario para ingresar -->
+        <form class= "form-login" action="">
+            <h1 class="tittle">Login</h1>
+            <label class="label-form">
+                <i class="fa-solid fa-user"></i>
+                <input class="input-form" type="text" id="username" placeholder="ingresa tu usuario">
+            </label>
+            <label class="label-form">
+                <i class="fa-solid fa-lock"></i>
+                <input class="input-form" type="text" id="username" placeholder="Ingresa tu contraseña">
+            </label>
+            <a href="#" class="link">¿Olvidaste tu contraseña?</a>
+    
+            <button id="button">Login</button>
+        </form>    
+    </div>
+</body>
+
+</html>
